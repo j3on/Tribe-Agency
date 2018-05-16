@@ -130,15 +130,36 @@ h3 {
   border: 1px solid white;
   margin: 0 auto;
   margin-top: -60px;
-  padding: 1rem;
+  padding: 3rem;
   width: 60%;
   line-height: 160%;
-  font-size: 90%;
+  font-size: 105%;
   color: #888888;
   box-shadow: lightgray 0px 2px 15px;
   background: white;
   z-index: 0; }
 
+.about-text a:link,
+.about-text a:visited {
+   text-decoration: none;
+}
+
+.btn-work {
+   border: 1px solid black;
+   text-decoration: none;
+   color: black;
+   padding: 1rem;
+   width: 200px;
+   margin: 0 auto;
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+.btn-work:hover {
+   background: #FF6600;
+   border: 1px solid white;
+   color: white;
+}
 /*-------FEATURES------- */
 .container {
   display: grid;
