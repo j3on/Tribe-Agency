@@ -19,16 +19,16 @@ body {
 /*-------NAV SECTION------- */
 .logo {
   float: left;
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: auto;
+  height: 100px; }
   .logo img {
     height: auto;
     width: 230px; }
 
 .main-nav {
   float: right;
-  position: relative;
-  left: 5rem;
-  top: 1.56rem; }
+  margin-top: 50px; }
   .main-nav li {
     display: inline-block;
     list-style: none;
@@ -44,9 +44,11 @@ body {
   .main-nav li a:hover,
   .main-nav li a:active {
     color: #FF6600; }
+  .main-nav span {
+    color: black; }
 
 /*-------COVER SECTION------- */
-.cover {
+header {
   background: url("../img/cover1.jpeg") center no-repeat;
   background-size: cover;
   height: 100vh;
