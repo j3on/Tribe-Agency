@@ -5,6 +5,16 @@
    }
 
    .row { padding: 0 2%; }
+
+	.container-news {
+	   display: block;
+	}
+
+	.container-news { display: block;}
+
+   .news-item { margin-bottom: 20px;}
+
+   .gone { display: none;}
 }
 
 /* Devices 768px to 1023px*/
@@ -25,12 +35,6 @@
       width: 90%
    }
 
-   /* NEWS SECTION */
-   .container-news { display: block;}
-
-   .news-item { margin-bottom: 20px;}
-
-   .gone { display: none;}
 
    /* CONTAINER SECTION */
 
@@ -49,6 +53,9 @@
       padding-bottom: 30px;
    }
 
+	/* PORTFOLIO SECTION */
+
+	.container-portfolio { grid-template-columns: repeat(2, 1fr);}
 
 }
 
@@ -165,8 +172,7 @@
 
    .contact-box .icon {
      display: inline-block;
-     color: #4a4a4a;
-     margin-right: 20px;
+     margin-right: 10px;
      transition: color 0.2s; }
 
    .services-box {
