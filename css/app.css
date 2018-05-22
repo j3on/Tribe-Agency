@@ -47,6 +47,36 @@ body {
   .main-nav span {
     color: black; }
 
+    /* STICKY */
+    .sticky .logo {
+      float: left;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: auto;
+      height: 60px; }
+
+    .sticky .main-nav {
+      margin-top: 40px; }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #b9b9b9;
+      padding: 0;
+      z-index: 9999;
+      border-bottom: 2px solid #FF6600; }
+      .sticky li a:link,
+      .sticky li a:visited {
+        text-decoration: none;
+        color: white;
+        font-size: 90%;
+        transition: color 0.2s; }
+      .sticky li a:hover,
+      .sticky li a:active {
+        color: #FF6600; }
+
 /*-------COVER SECTION------- */
 header {
   background: url("../img/cover1.jpeg") center no-repeat;
